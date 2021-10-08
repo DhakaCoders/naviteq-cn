@@ -60,22 +60,22 @@ nav.main-nav > ul{
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	margin: 0 -41px;
+	margin: 0 -15px;
 	padding-top: 58px;
+	background: #13a89e;
 }
 nav.main-nav > ul > li{
-	padding: 0 41px;
+	padding: 0 15px;
 	line-height: 1;
 	position: relative;
 }
 nav.main-nav > ul > li > a{
 	display: inline-block;
-	font-family: 'Museo-Sans-500';
-	font-size: 16px;
+	vertical-align: baseline;
+	font-size: 20px;
 	line-height: 1;
 	position: relative;
-	padding-bottom: 58px;
-	color: #716A6A;
+	color: #fff;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:last-child{
 	border-bottom: 0;
