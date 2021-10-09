@@ -3,7 +3,6 @@
 }
 .header-inr{
 	display: flex;
-	align-items: center;
 	flex-wrap: wrap;
 }
 .hdr-lft{
@@ -54,15 +53,16 @@
 	color: #323538;
 }
 
-
+.hdr-menu{
+	margin-top: 25px;
+}
 
 nav.main-nav > ul{
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	margin: 0 -15px;
-	padding-top: 58px;
 	background: #13a89e;
+	padding-top: 10px;
 }
 nav.main-nav > ul > li{
 	padding: 0 15px;
@@ -72,10 +72,11 @@ nav.main-nav > ul > li{
 nav.main-nav > ul > li > a{
 	display: inline-block;
 	vertical-align: baseline;
-	font-size: 20px;
+	font-size: 19px;
 	line-height: 1;
 	position: relative;
 	color: #fff;
+	padding-bottom: 12px;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:last-child{
 	border-bottom: 0;
@@ -96,20 +97,6 @@ nav.main-nav > ul > li.menu-item-has-children:hover > a:after{
 
 nav.main-nav > ul > li.menu-item-has-children > a{
 	padding-right: 20px;
-}
-nav.main-nav > ul > li.menu-item-has-children > a:after{
-	position: absolute;
-	content: "\f107"!important;
-	color: #716A6A;
-	top: -1px;
-	right: 0;
-	font-family: 'FontAwesome';
-	font-size: 20px;
-	line-height: 16px;
-	display: inline-block;
-	transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
     position: absolute;
