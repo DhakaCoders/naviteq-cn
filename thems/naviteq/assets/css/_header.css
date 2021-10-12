@@ -186,4 +186,5 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	line-height: 1;
 	position: relative;
 	color: #fff;
+	text-decoration: none;
 }
