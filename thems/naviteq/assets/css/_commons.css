@@ -19,10 +19,11 @@ a{
 	color: #13a89e;
 	text-decoration: underline;
 }
-a{
+a:hover{
+	color: #13a89e;
 	text-decoration: none;
-	color: #323538;
 }
+
 
 body {
     background: #fff;
@@ -34,7 +35,7 @@ body {
 }
 p{
 	line-height: 1.2;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 strong,b{
 	font-weight: 700;
