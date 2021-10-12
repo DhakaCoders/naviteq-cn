@@ -1,0 +1,129 @@
+
+.cnt-form{
+	padding-top: 60px;
+	max-width: 750px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.input-field{
+	margin-bottom: 20px;
+}
+.d2-wrp{
+	margin: 0 -10px;
+	display: flex;
+}
+.d2{
+	width: 50%;
+	padding: 0 10px;
+}
+.input-field input[type="text"],
+.input-field input[type="email"],
+.input-field textarea{
+	border: 1px solid #C6C6C6;
+	width: 100%;
+	height: 50px;
+	color: #323538;	
+	font-weight: 400;
+	font-size: 18px;
+	background-color: #F9F9F9;
+	padding: 0 9px;
+}
+.input-field input[type="text"]:focus,
+.input-field input[type="email"]:focus,
+.input-field textarea:focus,
+.right-sidebar .sidebar-widget input[type="search"]:focus{
+	border-color: #807c7c!important;
+}
+.right-sidebar .sidebar-widget input[type="submit"]:hover{
+	opacity: .7;
+}
+.input-field textarea{
+	height: 200px;
+	padding-top: 15px;
+	display: block;
+	resize: none;
+}
+.input-field input[type="text"]::placeholder,
+.input-field input[type="email"]::placeholder,
+.input-field textarea::placeholder{
+	color: #323538;
+	font-weight: 300;
+	opacity: 1;
+}
+.input-field input[type="text"]::-webkit-input-placeholder,
+.input-field input[type="email"]::-webkit-input-placeholder,
+.input-field textarea::-webkit-input-placeholder{
+	color: #323538;
+	font-weight: 300;
+	opacity: 1;
+}
+.input-field input[type="text"]::-moz-placeholder,
+.input-field input[type="email"]::-moz-placeholder,
+.input-field textarea::-moz-placeholder{
+	color: #323538;
+	font-weight: 300;
+	opacity: 1;
+}
+.input-field input[type="text"]:-ms-input-placeholder,
+.input-field input[type="email"]:-ms-input-placeholder,
+.input-field textarea:-ms-input-placeholder{
+	color: #323538;
+	font-weight: 300;
+	opacity: 1;
+}
+.input-field input[type="text"]:-moz-placeholder,
+.input-field input[type="email"]:-moz-placeholder,
+.input-field textarea:-moz-placeholder{
+	color: #323538;
+	font-weight: 300;
+	opacity: 1;
+}
+.cnt-us-submit-btn{
+	padding-top: 20px;
+}
+.cnt-form-btn{
+	text-transform: uppercase;
+	cursor: pointer;
+    max-width: 220px;
+    width: 100%;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #13a89e;
+    border: 2px solid #13a89e;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 5px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.cnt-form-btn:hover{
+	background: transparent;
+	color: #13a89e;
+}
+
+.cnt-form .wpcf7-not-valid-tip{
+    font-size: 16px;
+}
+.wpcf7 form.invalid .wpcf7-response-output, 
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #ffb900;
+}
+
+@media(max-width: 575px){
+	.d2-wrp{
+		flex-wrap: wrap;
+	}
+	.d2 {
+	    width: 100%;
+	    padding: 0 10px;
+	}
+}
+
+@media(max-width: 479px){
+	.input-field textarea{
+	    height: 170px;
+	}
+}
