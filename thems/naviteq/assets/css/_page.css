@@ -129,3 +129,17 @@
 .breadcrumb-cntlr ul li a span:hover {
     color: #13a89e;
 }
+
+
+
+
+
+/*404*/
+
+.page-404-wrp{
+	padding-top: 60px;
+}
+
+.page-404 {
+    min-height: 400px;
+}
