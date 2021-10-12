@@ -18,18 +18,23 @@
 	bottom: 0;
 	left: 0;
 }
-.hm-page-bnr-des{
+.hm-page-bnr-des-wrap{
 	position: relative;
 	z-index: 3;
 
 }
+.hm-page-bnr-des{
+	position: relative;
+}
 .hm-page-bnr-des-inr{
 	color: #fff;
-	position: relative;
+	position: absolute;
+	bottom: 42px;
+	left: 0;
 }
 
 
-.hm-page-bnr-des{
+/*.hm-page-bnr-des{
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -39,7 +44,7 @@
 	background-position: center center!important;
 	color: #fff;
 	text-align: right;
-}
+}*/
 .hm-page-bnr-des-inr div{
 	padding-top: 10px;
 }

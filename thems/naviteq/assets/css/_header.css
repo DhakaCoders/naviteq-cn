@@ -1,5 +1,5 @@
 .header{
-
+	padding-bottom: 25px;
 }
 .header-inr{
 	display: flex;
@@ -9,11 +9,19 @@
 
 }
 .logo{
-
+	padding: 30px 20px 20px 20px;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 40px;
+	z-index: 99;
 }
 .logo a{
 	display: inline-block;
-	max-width: 340px;
+	vertical-align: baseline;
+}
+.logo a img{
+	max-width: 280px;
 }
 .hdr-rgt{
 	margin-left: auto;
@@ -65,14 +73,14 @@ nav.main-nav > ul{
 	padding-top: 10px;
 }
 nav.main-nav > ul > li{
-	padding: 0 15px;
+	padding: 0 12px;
 	line-height: 1;
 	position: relative;
 }
 nav.main-nav > ul > li > a{
 	display: inline-block;
 	vertical-align: baseline;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 500;
 	line-height: 1;
 	position: relative;
@@ -167,7 +175,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after {
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	display: inline-block;
 	vertical-align: baseline;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 500;
 	line-height: 1;
 	position: relative;
