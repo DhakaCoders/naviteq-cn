@@ -325,3 +325,16 @@ ol li::before {
 .page-404 {
     min-height: 400px;
 }
+
+
+.btm-angle{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.btm-angle-inr{
+    max-width: 50%;
+    width: 100%;
+    margin-left: auto;
+}
