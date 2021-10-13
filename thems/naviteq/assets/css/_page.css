@@ -48,9 +48,9 @@
 
 
 /*breadcrumb*/
-/*.breadcrumb-sec {
-    margin-bottom: 60px;
-}*/
+.breadcrumb-sec {
+    padding-top: 28px;
+}
 .breadcrumb-cntlr{
 	overflow: hidden;
 	padding-top: 10px;
