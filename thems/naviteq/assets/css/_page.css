@@ -338,3 +338,34 @@ ol li::before {
     width: 100%;
     margin-left: auto;
 }
+
+
+
+@media(max-width: 991px){
+    .right-sidebar{
+        max-width: 40%;
+    }
+    .post-img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+}
+@media(max-width: 767px){
+    .post-items {
+        max-width: 100%;
+    }
+    .right-sidebar {
+        max-width: 100%;
+        padding-right: 0;
+    }
+    .post-sec-cntrl {
+        display: block;
+    }
+    .right-sidebar .sidebar-widget{
+        margin-bottom: 30px;
+    }
+    .sidebar-widget{
+        padding-bottom: 30px;
+    }
+}
