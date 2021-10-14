@@ -240,6 +240,14 @@ google.maps.event.addDomListener(window, 'load', initialize);
   }, false);
 })();
 
+
+  var containerWidth = $('.container').width();
+  var offSetWidth = (windowWidth - containerWidth);
+  var lftOffSetWidth = (offSetWidth / 2);
+  var bnrHeight = $('.hm-page-bnr-des-inr').outerHeight();
+  $('.hm-page-border').css('width', lftOffSetWidth);
+  $('.hm-page-border').css('height', bnrHeight);
+
     new WOW().init();
 
 })(jQuery);

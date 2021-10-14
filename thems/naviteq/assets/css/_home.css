@@ -2,6 +2,12 @@
 	position: relative;
 	text-align: center;
 }
+.hm-page-border{
+	position: absolute;
+	bottom: 42px;
+	left: 0;
+	background: #5b5d60;
+}
 .hm-page-banner{
 	height: 540px;
 	position: relative;
@@ -63,4 +69,8 @@ hr {
     margin-bottom: 55px;
     border-top: none;
     border-bottom: 6px solid #f1f1f1;
+}
+
+.home .nq-content-sec{
+	padding-bottom: 500px;
 }
