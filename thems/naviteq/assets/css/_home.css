@@ -17,6 +17,15 @@
 	justify-content: center;
 }
 
+.page-banner{
+	height: 145px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .page-banner-bg{
 	position: absolute;
 	top: 0;
@@ -71,6 +80,6 @@ hr {
     border-bottom: 6px solid #f1f1f1;
 }
 
-.home .nq-content-sec{
+.nq-content-sec{
 	padding-bottom: 500px;
 }
