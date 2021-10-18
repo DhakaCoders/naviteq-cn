@@ -257,6 +257,17 @@ google.maps.event.addDomListener(window, 'load', initialize);
     $('.hm-page-border').css('width', lftOffSetWidth);
     $('.hm-page-border').css('height', bnrHeight);
   });
+
+  if (windowWidth > 767) {
+    if( $('.hm-page-banner').length ){
+      var windowHeight = $(window).height();
+      var headerHight = $('.main-header').height();
+      var bnrHeight = (windowHeight - headerHight);
+      if (windowHeight < 540) {
+        $('.hm-page-banner').css('height', bnrHeight);
+      }
+    }
+  }
   
 
     new WOW().init();
