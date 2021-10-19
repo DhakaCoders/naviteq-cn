@@ -133,7 +133,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
     position: absolute;
     top: 100%;
     left: 0;
-    background: #323538;
+    /*background: #323538;*/
     z-index: 15;
     width: 230px;
     padding: 0 0 0 0;
@@ -146,8 +146,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
     -o-transform: scale3d(1,0,1);
     transform-origin: top;
     opacity: 0;
-    margin-top: 11px;
-    border-radius: 2px;
+    border-top: 11px solid #fff;
+    /*margin-top: 11px;
+    border-radius: 2px;*/
 
 }
 nav.main-nav > ul > li.menu-item-has-children:hover ul.sub-menu {
@@ -163,6 +164,15 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li {
     display: block;
     position: relative;
     border-bottom: 1px solid #13a89e;
+    background: #323538;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:first-child{
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:last-child{
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after {
     position: absolute;
