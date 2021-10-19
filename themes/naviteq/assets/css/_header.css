@@ -20,6 +20,8 @@
 .logo a{
 	display: inline-block;
 	vertical-align: baseline;
+	position: relative;
+    z-index: 999;
 }
 .logo a img{
 	max-width: 260px;
@@ -237,7 +239,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	position: absolute;
 	left: 0;
 	top: 0;
-	border-top: 85px solid #fff;
+	border-top: 83px solid #fff;
 	border-right: 38px solid transparent;
 }
 
@@ -372,7 +374,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	    -webkit-transition: all 0.3s;
 	    transition: all 0.3s;
 	    padding-top: 30px;
-	    height: 100%;
 	    width: 100%;
 	    padding-bottom: 10px;
 	    padding-left: 30px;
@@ -383,10 +384,12 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	    -o-transform: scale3d(1,0,1);
 	    transform-origin: top;
 	    overflow-y: auto;
+	    border-bottom-left-radius: 3px;
+	    border-bottom-right-radius: 3px;
 	}
-	body.allWork {
+	/*body.allWork {
 	    overflow: hidden!important;
-	}
+	}*/
 	.allWork .xs-mobile-menu {
 	    right: 0;
 	    opacity: 1;
@@ -427,8 +430,11 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	    box-shadow: none;
 	    background: transparent!important;
 	    margin-top: 18px;
+	    border-top: none;
 	}
 	nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li{
+		background: transparent;
+		border-bottom: none;
 		padding: 0 0 12px;
 	}
 	nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
@@ -445,6 +451,15 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	    max-width: 200px;
 	}
 	.hamburger-cntlr{
-		margin-top: -14px;
+		margin-top: -4px;
+	}
+	.hdr-rgt {
+	    padding-top: 20px;
+	}
+	nav.main-nav > ul > li > a{
+		font-size: 36px;
+	}
+	nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
+	    font-size: 26px;
 	}
 }
