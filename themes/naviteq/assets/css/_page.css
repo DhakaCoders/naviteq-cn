@@ -264,7 +264,7 @@ ol li::before {
 }
 .search input[type="search"]:focus{
     border: 1px solid #000;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 .right-sidebar .sidebar-widget input[type="submit"]{
     position: absolute;
