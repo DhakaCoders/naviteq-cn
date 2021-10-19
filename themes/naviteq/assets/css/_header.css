@@ -354,6 +354,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 		position: initial;
 		padding: initial;
 		padding-bottom: 30px;
+		padding-left: 17px;
 	}
 	.logo a img {
 	    max-width: 300px;
@@ -461,5 +462,8 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	}
 	nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
 	    font-size: 26px;
+	}
+	.logo{
+		padding-left: 10x;
 	}
 }

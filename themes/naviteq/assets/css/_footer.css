@@ -191,3 +191,9 @@
 		line-height: 33px;
 	}
 }
+@media(max-width: 489px){
+	.ftr-btm-inr,
+	.ftr-top-inr{
+		padding-left: 10px;
+	}
+}
