@@ -134,7 +134,7 @@ Responsive on 767px
 
   var containerWidth = $('.container').width();
   var offSetWidth = (windowWidth - containerWidth);
-  var lftOffSetWidth = (offSetWidth / 2);
+  var lftOffSetWidth = ((offSetWidth / 2)+2);
   var bnrHeight = $('.hm-page-bnr-des-inr').outerHeight();
   $('.hm-page-border').css('width', lftOffSetWidth);
   $('.hm-page-border').css('height', bnrHeight);
@@ -143,7 +143,7 @@ Responsive on 767px
     var windowWidth = $(window).width();
     var containerWidth = $('.container').width();
     var offSetWidth = (windowWidth - containerWidth);
-    var lftOffSetWidth = (offSetWidth / 2);
+    var lftOffSetWidth = ((offSetWidth / 2)+2);
     var bnrHeight = $('.hm-page-bnr-des-inr').outerHeight();
     $('.hm-page-border').css('width', lftOffSetWidth);
     $('.hm-page-border').css('height', bnrHeight);

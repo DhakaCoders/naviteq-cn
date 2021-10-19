@@ -6,6 +6,7 @@
 	display: flex;
 	max-width: 1050px;
 	width: 100%;
+	padding-left: 17px;
 }
 
 .ftr-col{
@@ -71,6 +72,7 @@
 	display: flex;
 	align-items: center;
 	margin-bottom: 15px;
+	padding-left: 17px;
 }
 
 .ftr-btm-menu{
