@@ -69,6 +69,7 @@
 
 .ftr-btm-inr{
 	display: flex;
+	align-items: center;
 	margin-bottom: 15px;
 }
 

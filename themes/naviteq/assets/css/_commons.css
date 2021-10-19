@@ -36,6 +36,8 @@ body {
 p{
 	line-height: 1.2;
 	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 }
 strong,b{
 	font-weight: 700;
