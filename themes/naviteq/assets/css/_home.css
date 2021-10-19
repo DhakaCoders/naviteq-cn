@@ -78,7 +78,9 @@ hr {
     border-top: none;
     border-bottom: 6px solid #f1f1f1;
 }
-
+.nq-text-module {
+    padding-left: 17px;
+}
 .nq-content-sec{
 	padding-bottom: 500px;
 }
