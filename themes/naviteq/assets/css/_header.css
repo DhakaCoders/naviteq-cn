@@ -194,9 +194,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after {
     height: 25px;
     opacity: 0;
     background: #13a89e;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:hover:after {
     opacity: 1;
