@@ -366,10 +366,10 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	.xs-mobile-menu{
 		position: absolute;
 		top: 100%;
-	    right: -100%;
+	    right: 0;
 	    background: #13a89e;
-	    width: 0;
-	    z-index: 99999;
+	    width: 100%;
+	    z-index: -99999;
 	    opacity: 0;
 	    -ms-transition: all 0.3s;
 	    -webkit-transition: all 0.3s;
@@ -392,10 +392,8 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	    overflow: hidden!important;
 	}*/
 	.allWork .xs-mobile-menu {
-	    right: 0;
 	    opacity: 1;
 	    z-index: 99999;
-	    width: 100%;
 	    transform: scale3d(1,1,1);
 	    -ms-transform: scale3d(1,1,1);
 	    -webkit-transform: scale3d(1,1,1);
