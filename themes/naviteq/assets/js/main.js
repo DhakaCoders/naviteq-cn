@@ -6,8 +6,8 @@ $('.navbar-toggle').on('click', function(){
 	$('#mobile-nav').slideToggle(300);
 });
 
-if( $('.hamburger-cntlr').length ){
-  $('.hamburger-cntlr').click(function(){
+if( $('.hamburger-icon').length ){
+  $('.hamburger-icon').click(function(){
     $('body').toggleClass('allWork');
   });
 }
