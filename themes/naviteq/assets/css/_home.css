@@ -145,6 +145,9 @@ hr {
 	.hm-page-bnr-des-inr{
 		padding-left: 17px;
 	}
+	.nq-text-module h3{
+		font-size: 50px;
+	}
 }
 @media(max-width: 575px){
 	hr {
@@ -164,5 +167,8 @@ hr {
 	.hm-page-bnr-sub-title{
 		font-size: 22px!important;
 		line-height: 1;
+	}
+	.nq-text-module h3 {
+	    font-size: 35px;
 	}
 }
