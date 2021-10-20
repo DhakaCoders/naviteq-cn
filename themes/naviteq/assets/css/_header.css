@@ -271,6 +271,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
+
 .hamburger-icon span:nth-child(2) {
     top: 14px;
 }
