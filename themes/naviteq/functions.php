@@ -37,6 +37,7 @@ if( !function_exists('cbv_theme_setup') ){
         register_nav_menus( array(
             'cbv_main_menu' => __( 'Main Menu', 'naviteq' ),
             'cbv_mobile_menu' => __( 'Mobile Menu', 'naviteq' ),
+            'cbv_footer_menu' => __( 'Footer Menu', 'naviteq' ),
             'cbv_copyright_menu' => __( 'Copyright Menu', 'naviteq' )
         ) );
 

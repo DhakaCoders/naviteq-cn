@@ -33,7 +33,7 @@
               <div class="ftr-col ftr-menu">
                 <?php 
                   $fmenuOptions1 = array( 
-                      'theme_location' => 'cbv_fta_menu', 
+                      'theme_location' => 'cbv_footer_menu', 
                       'menu_class' => 'reset-list',
                       'container' => '',
                       'container_class' => ''
