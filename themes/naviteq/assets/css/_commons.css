@@ -223,7 +223,8 @@ ul.sub-menu,
 ul.ab-top-menu,
 .fl-pagination-ctlr ul,
 .attachments-browser ul,
-.sidebar-widget ul{
+.sidebar-widget ul,
+.fl-pagi-cntlr ul{
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -235,7 +236,8 @@ ul.sub-menu li,
 ul.ab-top-menu li,
 .fl-pagination-ctlr ul li,
 .attachments-browser ul li,
-.sidebar-widget ul li{
+.sidebar-widget ul li,
+.fl-pagi-cntlr ul li{
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -248,7 +250,8 @@ ul.sub-menu li:before,
 ul.ab-top-menu li:before,
 .fl-pagination-ctlr ul li:before,
 .attachments-browser ul li:before,
-.sidebar-widget ul li:before{
+.sidebar-widget ul li:before,
+.fl-pagi-cntlr ul li:before{
 	content: none!important;
 }
 
