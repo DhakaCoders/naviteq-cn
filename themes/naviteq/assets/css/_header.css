@@ -442,7 +442,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after{
 		content: none;
 	}
-	/*.hdr-menu {
+	.hdr-menu {
 	    position: absolute;
 	    top: 100%;
 	    right: 0;
@@ -479,7 +479,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	}
 	.xs-mobile-menu{
 		display: none!important;
-	}*/
+	}
 
 }
 
