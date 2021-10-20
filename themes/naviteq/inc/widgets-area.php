@@ -5,10 +5,10 @@ function deploy_widgets_init() {
 		'name'          => __( 'Sidebar Widget', 'naviteq' ),
 		'id'            => 'post-widget',
 		'description'   => __( 'Add widgets here to appear in your blog page.', 'naviteq' ),
-		'before_widget' => '<aside class="search-wrp widget"><div class="sidebar-widget">',
+		'before_widget' => '<aside"><div class="sidebar-widget">',
 		'after_widget'  => '</div></aside>',
-		'before_title'  => '<h3>',
-		'after_title'   => '</h3>',
+		'before_title'  => '<h4>',
+		'after_title'   => '</h4>',
 	) );
 }
 add_action( 'widgets_init', 'deploy_widgets_init' );
