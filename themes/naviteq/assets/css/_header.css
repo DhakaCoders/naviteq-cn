@@ -444,6 +444,44 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after{
 		content: none;
 	}
+	/*.hdr-menu {
+	    position: absolute;
+	    top: 100%;
+	    right: 0;
+	    width: 0;
+	    z-index: 99999;
+	    opacity: 0;
+	    -ms-transition: all 0.5s;
+	    -webkit-transition: all 0.5s;
+	    transition: all 0.5s;
+	    width: 100%;
+	    padding-bottom: 30px;
+	    transform: scale3d(1,0,1);
+	    -ms-transform: scale3d(1,0,1);
+	    -webkit-transform: scale3d(1,0,1);
+	    -o-transform: scale3d(1,0,1);
+	    transform-origin: top;
+	    margin-top: 0;
+	    border-radius: initial;
+	    padding-bottom: 10px;
+	    padding-left: 30px;
+	    padding-right: 30px;
+        padding-top: 30px;
+        background: #13a89e;
+	}
+	.allWork .hdr-menu {
+	    right: 0;
+	    opacity: 1;
+	    z-index: 99999;
+	    width: 100%;
+	    transform: scale3d(1,1,1);
+	    -ms-transform: scale3d(1,1,1);
+	    -webkit-transform: scale3d(1,1,1);
+	    -o-transform: scale3d(1,1,1);
+	}
+	.xs-mobile-menu{
+		display: none!important;
+	}*/
 
 }
 
