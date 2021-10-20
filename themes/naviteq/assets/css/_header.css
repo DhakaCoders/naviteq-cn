@@ -267,12 +267,37 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
     background: #13a89e;
     height: 9px;
     border-radius: 3px;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
+
 .hamburger-icon span:nth-child(2) {
     top: 14px;
 }
 .hamburger-icon span:nth-child(3){
     top: 28px;
+}
+.allWork .hamburger-icon span:nth-child(2){
+	display: none;
+	content: none;
+	transition: all 0s;
+    -ms-transition: all 0s;
+    -webkit-transition: all 0s;
+}
+.allWork .hamburger-icon span:nth-child(1){
+	top: 14px;
+	transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+}
+.allWork .hamburger-icon span:nth-child(3){
+	top: 14px;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
 }
 
 
@@ -442,7 +467,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after{
 		content: none;
 	}
-	/*.hdr-menu {
+	.hdr-menu {
 	    position: absolute;
 	    top: 100%;
 	    right: 0;
@@ -479,7 +504,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	}
 	.xs-mobile-menu{
 		display: none!important;
-	}*/
+	}
 
 }
 
@@ -494,12 +519,17 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a{
 	    padding-top: 20px;
 	}
 	nav.main-nav > ul > li > a{
-		font-size: 36px;
+		font-size: 32px;
 	}
 	nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
-	    font-size: 26px;
+	    font-size: 21px;
 	}
 	.logo{
 		padding-left: 10px;
+	}
+	.hdr-menu{
+		padding-left: 20px;
+	    padding-right: 20px;
+	    padding-top: 20px;
 	}
 }
