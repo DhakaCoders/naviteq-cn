@@ -10,12 +10,16 @@
 }
 
 .ftr-col{
-	padding-right: 50px;
+	padding-right: 70px;
 }
-
+.ftr-col.ftr-adrs {
+    padding-right: 50px;
+}
 .ftr-menu{
 	width: 52.8571%;
 	order: 1;
+	display: flex;
+    flex-wrap: wrap;
 }
 .ftr-contact-menu{
 	width: 21.4285%;
@@ -27,12 +31,12 @@
 }
 
 .ftr-menu ul{
-	display: flex;
-	flex-wrap: wrap;
+    width: 50%;
 }
 .ftr-menu ul li{
-	width: 50%;
+	width: 100%;
 	padding-bottom: 3px;
+	padding-right: 10px;
 }
 .ftr-menu ul li a{
 	display: inline-block;
@@ -40,7 +44,7 @@
 	color: #323538;
 	text-decoration: none;
 }
-.ftr-menu ul li.active a,
+.ftr-menu ul li.current-menu-item a,
 .ftr-menu ul li a:hover{
 	color: #13a89e;
 	text-decoration: underline;
@@ -128,7 +132,7 @@
 	    padding-right: 30px;
 	}
 	.ftr-menu {
-	    width: 40%;
+	    width: 35%;
 	}
 	.ftr-contact-menu {
 	    width: 30%;
@@ -138,16 +142,20 @@
 	}
 	.ftr-menu ul {
 	    display: block;
+	    width: 100%;
 	}
 	.ftr-menu ul li {
 	    width: 100%;
 	    padding-bottom: 5px;
 	}
+	.ftr-menu ul li a{
+	    font-size: 19px;
+	}
 }
 
 @media(max-width: 767px){
 	.footer-wrp{
-		padding-bottom: 25px;
+		padding-bottom: 12px;
 	}
 	.ftr-top-inr{
 		display: block;
@@ -183,17 +191,59 @@
 		line-height: 33px;
 	}
 	.ftr-menu ul li{
-		padding-bottom: 10px;
+		padding-bottom: 5px;
+		padding-right: 0;
 	}
 	.ftr-menu ul li a{
 		font-size: 27px;
 		font-weight: 500;
 		line-height: 33px;
 	}
+	.ftr-copyright p{
+	    font-size: 20px;
+	}
+	.ftr-menu ul {
+        width: 100%;
+        padding-bottom: 45px;
+    }
+    .ftr-top {
+        padding-bottom: 0px;
+    }
+    .ftr-btm-inr, 
+    .ftr-top-inr {
+         padding-left: 0px; 
+    }
+    .btm-angle-inr{
+        max-width: 70%;
+        margin-bottom: 0;
+    }
 }
 @media(max-width: 489px){
 	.ftr-btm-inr,
 	.ftr-top-inr{
-		padding-left: 10px;
+		padding-left: 0;
 	}
+	.ftr-adrs a,
+	.ftr-menu ul li a{
+	    font-size: 25px;
+	}
+	.ftr-copyright p {
+        font-size: 17px;
+    }
+    .ftr-contact-menu{
+        padding-bottom: 40px;
+    }
+    .ftr-menu ul{
+        padding-bottom: 35px;
+    }
+    .footer-wrp {
+         padding-bottom: 0; 
+    }
+    
+}
+@media(max-width: 359px){
+    .ftr-adrs a, 
+    .ftr-menu ul li a {
+        font-size: 23px;
+    }
 }

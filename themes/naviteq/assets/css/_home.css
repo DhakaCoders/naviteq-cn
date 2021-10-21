@@ -97,7 +97,10 @@
 	margin-bottom: 0px;
 	color: #ffffff;
 }
-
+.hm-page-banner .hm-page-bnr-title{
+    font-size: 69px;
+}
+.hm-page-bnr-title,
 .hm-page-bnr-sub-title {
     padding-right: 50px;
 }
@@ -122,12 +125,37 @@ hr {
 .nq-content-sec{
 	padding-bottom: 500px;
 }
+body.home .nq-text-module h1,
+.hm-page-bnr-des .hm-page-bnr-title{
+    font-size: 69px!important;
+}
+body.home .nq-text-module h2{
+    font-size: 50px!important;
+}
 
+@media(max-width: 1699px){
+    body.home .nq-text-module h1,
+    .hm-page-bnr-des .hm-page-bnr-title{
+        font-size: 59px!important;
+    }
+    body.home .nq-text-module h2{
+        font-size: 40px!important;
+    }
+}
 
 @media(max-width: 1199px){
 	.nq-content-sec {
 	    padding-bottom: 400px;
 	}
+	.hm-page-banner .hm-page-bnr-title{
+        font-size: 50px!important;
+    }
+    body.home .nq-text-module h1{
+        font-size: 50px!important;
+    }
+    body.home .nq-text-module h2{
+        font-size: 37px!important;
+    }
 }
 @media(max-width: 991px){
 	.nq-content-sec {
@@ -143,17 +171,25 @@ hr {
 		height: 531px;
 	}
 	.hm-page-bnr-des-inr{
-		padding-left: 17px;
+		padding-left: 12px;
+		left: -12px;
 	}
-	.nq-text-module h3{
-		font-size: 50px;
-	}
+	.nq-text-module {
+        padding-left: 0px;
+    }
 	.page-bnr-cntlr{
 		display: none!important;
 	}
-	.nq-text-module h2{
-		font-size: 50px;
+	.hm-page-banner{
+	    margin: 0 -12px;
 	}
+	hr{
+	    margin-left: -20px;
+        margin-right: -20px;
+	}
+	.hm-page-banner .hm-page-bnr-title{
+        font-size: 45px;
+    }
 }
 @media(max-width: 575px){
 	hr {
@@ -163,21 +199,34 @@ hr {
 }
 
 @media(max-width: 479px){
-	.nq-text-module,
-	.hm-page-bnr-des-inr{
-		padding-left: 10px;
-	}
-	.nq-text-module h2{
-		font-size: 35px;
-	}
 	.hm-page-bnr-title{
 		font-size: 36px!important;
 	}
 	.hm-page-bnr-sub-title{
-		font-size: 22px!important;
 		line-height: 1;
 	}
-	.nq-text-module h3 {
-	    font-size: 35px;
-	}
+	body.home .nq-text-module h1, 
+	.hm-page-bnr-des .hm-page-bnr-title {
+        font-size: 45px!important;
+    }
+    body.home .nq-text-module h2 {
+        font-size: 35px!important;
+    }
+    .hm-page-bnr-title, 
+    .hm-page-bnr-sub-title {
+        padding-right: 30px;
+    }
+}
+@media(max-width: 359px){
+    body.home .nq-text-module h1, 
+	.hm-page-bnr-des .hm-page-bnr-title {
+        font-size: 40px!important;
+    }
+    body.home .nq-text-module h2 {
+        font-size: 32px!important;
+    }
+    body.home .hm-page-bnr-sub-title{
+        font-size: 28px!important;
+    }
+    
 }

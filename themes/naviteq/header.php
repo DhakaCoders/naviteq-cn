@@ -13,10 +13,11 @@
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->	
+<![endif]-->  
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<div class="hdr-gap-div"></div>
 <?php 
   $telephone = get_field('telephone', 'options');
   $email = get_field('email', 'options');
@@ -67,7 +68,7 @@
                   <?php 
                     endif;
                     if( !empty($email) ): ?>
-                  <li><a href="mailto:<?php echo $email; ?>"><img src="<?php echo THEME_URI; ?>/assets/images/xs-mail-icon.png"></a></li>
+                  <li class="xs-mail-icon"><a href="mailto:<?php echo $email; ?>"><img src="<?php echo THEME_URI; ?>/assets/images/xs-mail-icon.png"></a></li>
                   <?php endif; ?>
                 </ul>
               </div>
@@ -91,7 +92,7 @@
                 </div>
               </div>
             </div>
-            <div class="hdr-menu hide-sm">
+            <div class="hdr-menu">
               <nav class="main-nav">
               <?php 
                 $menuOptions = array( 
@@ -102,21 +103,6 @@
                   );
                 wp_nav_menu( $menuOptions ); 
               ?>
-              </nav>
-            </div>
-          </div>
-          <div class="xs-mobile-menu">
-            <div class="xs-menu show-sm">
-              <nav class="main-nav">
-                  <?php 
-                    $menuOptions = array( 
-                        'theme_location' => 'cbv_mobile_menu', 
-                        'menu_class' => 'clearfix reset-list',
-                        'container' => '',
-                        'container_class' => ''
-                      );
-                    wp_nav_menu( $menuOptions ); 
-                  ?>
               </nav>
             </div>
           </div>
