@@ -38,11 +38,11 @@ $imgtag = !empty($imgID)? cbv_get_image_tag($imgID): blog_placeholder('tag');
           <ul class="reset-list clearfix">
             <li class="home">
               <a href="<?php echo esc_url( home_url('/') ); ?>">
-                <span class="item">home</span>
+                <span class="item"><?php _e('home', 'naviteq'); ?></span>
               </a>
             </li>
             <li>
-              <a href="<?php the_permalink($blogID); ?>"><span>blog</span></a>
+              <a href="<?php the_permalink($blogID); ?>"><span><?php _e('blog', 'naviteq'); ?></span></a>
             </li>
             <li class="active">
               <span><?php the_title(); ?></span>
