@@ -36,11 +36,11 @@ if( !empty($banner) ):
         <ul class="reset-list clearfix">
           <li class="home">
             <a href="<?php echo esc_url( home_url('/') ); ?>">
-              <span class="item">home</span>
+              <span class="item"><?php _e('home', 'naviteq'); ?></span>
             </a>
           </li>
           <li class="active">
-            <span>blog</span>
+            <span><?php _e('blog', 'naviteq'); ?></span>
           </li>
         </ul>
       </div>
@@ -97,7 +97,7 @@ if( !empty($banner) ):
           <?php endif; ?>
           <?php else: ?>
               <div class="notfound">
-                <?php _e('No Results.', 'riet'); ?>
+                <?php _e('No Results.', 'naviteq'); ?>
               </div>
           <?php endif; ?>
           </div>

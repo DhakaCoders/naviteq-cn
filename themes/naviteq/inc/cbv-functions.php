@@ -230,7 +230,7 @@ add_shortcode( 'cyear', 'bv_get_current_year' );
 
 function cbv_get_excerpt(){
   global $post;
-  $link = '<a href="'. get_permalink($post->ID) . '">'.__(' ....more', 'landshuys').'</a>';
+  $link = '<a href="'. get_permalink($post->ID) . '">'.__(' ....more', 'naviteq').'</a>';
   $excerpt = explode(' ', get_the_excerpt());
   //array_pop($excerpt);
   $excerpt = implode(" ",$excerpt);

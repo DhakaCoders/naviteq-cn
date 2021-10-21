@@ -457,7 +457,9 @@ ol li::before {
     margin-left: auto;
 }
 
-
+.post-sec-cntrl.full-block-post .post-items {
+    max-width: inherit;
+}
 
 @media(max-width: 991px){
     .right-sidebar{
